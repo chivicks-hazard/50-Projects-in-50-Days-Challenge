@@ -10,28 +10,19 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(199, 199, 241);
+  font-family: sans-serif;
 }
 
 .clock {
-  font-size: 150px;
-  font-family:
-    Segoe UI Variable,
-    "Segoe UI",
-    sans-serif;
-  font-weight: 300px;
-  color: tomato;
+  font-size: 50px;
+  text-align: center;
 }
 
-h3 {
-  margin-top: 2px;
-  font-size: 30px;
-  font-weight: 400;
-  margin: 1px;
-  display: contents;
+.clock span {
+  font-size: 1.5em;
 }
 
-.clock > span:last-child {
-  font-size: 30px;
-  color: orangered;
+.date {
+  margin-top: 0.6em;
+  font-size: 0.5em;
 }
