@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#quizApp {
+  border: 0.5rem dashed black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+#quizApp form {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  font-size: 0.8rem;
+}
+
+#submitBtn {
+  border: none;
+  padding: 0.5rem;
+  background-color: #898989;
+  border-radius: 0.25rem;
+}
+
+#submitBtn:hover {
+  background-color: #a9a9a9;
+}
