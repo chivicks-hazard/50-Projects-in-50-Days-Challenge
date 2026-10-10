@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Grade Calculator</h1>
+      <div id="gradeCalculator">
+        <!-- A, B, C, D, F -->
+
+        <!-- Math, English, Chemistry, Physics, Biology -->
+        <form action="">
+          <div class="form-group">
+            <label for="math">Math</label>
+            <input type="number" min="0" max="100" name="math" id="math" />
+          </div>
+          <div class="form-group">
+            <label for="english">English</label>
+            <input
+              type="number"
+              min="0"
+              max="100"
+              name="english"
+              id="english"
+            />
+          </div>
+          <div class="form-group">
+            <label for="chemistry">Chemistry</label>
+            <input
+              type="number"
+              min="0"
+              max="100"
+              name="chemistry"
+              id="chemistry"
+            />
+          </div>
+          <div class="form-group">
+            <label for="physics">Physics</label>
+            <input
+              type="number"
+              min="0"
+              max="100"
+              name="physics"
+              id="physics"
+            />
+          </div>
+          <div class="form-group">
+            <label for="biology">Biology</label>
+            <input
+              type="number"
+              min="0"
+              max="100"
+              name="biology"
+              id="biology"
+            />
+          </div>
+
+          <button type="submit" id="submitBtn">Submit</button>
+        </form>
+
+        <div id="results">
+          <p>
+            Math: <span id="mathResult">100</span>% <br />
+            You got an <span id="mathGrade">A</span>
+          </p>
+          <p>
+            English: <span id="englishResult">100</span>% <br />
+            You got an <span id="englishGrade">A</span>
+          </p>
+          <p>
+            Chemistry: <span id="chemistryResult">100</span>% <br />
+            You got an <span id="chemistryGrade">A</span>
+          </p>
+          <p>
+            Physics: <span id="physicsResult">100</span>% <br />
+            You got an <span id="physicsGrade">A</span>
+          </p>
+          <p>
+            Biology: <span id="biologyResult">100</span>% <br />
+            You got an <span id="biologyGrade">A</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
